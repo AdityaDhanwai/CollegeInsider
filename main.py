@@ -15,10 +15,10 @@ from datetime import timedelta
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SMTP_USERNAME = "adityadhanwai8@gmail.com"
-SMTP_PASSWORD = "dqua dmxa mhpd lcdp"
+SMTP_PASSWORD = "SMTP Password"
 # Email account credentials
 email_address = "adityadhanwai8@gmail.com"
-password = "dqua dmxa mhpd lcdp"
+password = "SMTP Password"
 app = Flask(__name__)
 app.secret_key = 'asdfghjk123'
 oauth = OAuth(app)
