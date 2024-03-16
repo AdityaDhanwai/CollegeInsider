@@ -553,7 +553,7 @@ import openai,time,re
 
 def chat_with_chatgpt(message, model_name='text-davinci-003'):
     # Set up OpenAI API credentials
-    openai.api_key = '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'
+    openai.api_key = 'YourAPIKEY'
 
     # Define the parameters for the GPT-3 API call
     params = {
